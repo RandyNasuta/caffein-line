@@ -32,4 +32,4 @@ Tampilan Halaman Payment
 ![image](https://user-images.githubusercontent.com/94217153/197421033-0d0762bc-2128-4e2f-96ff-940fbb05fde6.png)
 <br>
 <br>
-**Informasi lengkap terdapat di file dokumentasi eksternal**
+**Informasi lengkap terdapat di folder Dokumentasi Eksternal**
