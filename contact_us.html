@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffein Line</title>
+    <link rel="stylesheet" href="contact_style.css">
+    <script defer src="script_contact.js"></script>
+</head>
+<body>
+    <header>
+        <img src="./Assets/logo.png" alt="logo">
+    </header>
+    <nav>
+        <ul>
+            <li class="home"> <a href="home.html">Home</a></li>
+            <li class="menu_beverages"><a href="menu_beverage.html">Menu Beverages</a></li>
+            <li class="menu_desserts"> <a href="menu_desserts.html">Menu Desserts</a></li>
+            <li class="contact_us"> <a href="contact_us.html">Contact Us</a></li>
+            <li class="payment"> <a href="payment.html">Payment</a></li>
+            <li class="dropdown"><img src="./Assets/arrow.png">
+                <ul>
+                    <li> <a href="about_us.html">About Us</a></li>
+                    <li> <a href="information.html">Information</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="square">
+            <div class="container">
+                <div class="title">
+                    <p>Contact Us</p>
+                </div>
+            </div>
+            <div class="formulir">
+                <form action="" onsubmit="Validation(event)" name="contact-form">
+                    <div class="fill_name">
+                        <p id="problemName"></p>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="fill_email">
+                        <p id="problemEmail"></p>
+                        <label for="email">Email</label>                  
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div class="fill_message">
+                        <p id="problemMessage"></p>
+                        <div class="messageTitle">
+                            <label for="message">Message</label>
+                        </div>
+                        <textarea name="message" id="message" cols="40" rows="5"></textarea>
+                    </div>
+                    <div class="submit_confirm">
+                        <input type="submit" value="Confirm" id="confirm">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="information">
+            <p>INFORMATION</p>
+            <p class="free">Free Delivery For All Menus</p>
+        </div>
+    </div>
+    <footer>@2021, Alright reserved</footer>
+</body>
+</html>

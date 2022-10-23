@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #f2b430;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #361209;
+    text-align: center;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+.home:hover{
+    background-color:chocolate;
+}
+
+.menu_beverages:hover{
+    background-color:chocolate;
+}
+
+.contact_us:hover{
+    background-color:chocolate;
+}
+
+.payment:hover{
+    background-color:chocolate;
+}
+
+.menu_desserts:hover{
+    background-color:chocolate;
+}
+
+nav img{
+    width: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 60px;
+    box-sizing: border-box;
+}
+
+nav ul li ul{
+    position: absolute;
+    display: none;
+}
+
+nav ul li ul li{
+    display: block;
+    width: 190px;
+    margin-left: -60px;
+    margin-top: 10px;
+}
+
+.dropdown:hover{
+    background-color:chocolate ;
+    width: 30px;
+}
+
+nav ul li:hover ul{
+    display: block;
+    background-color: chocolate;
+    margin-left: -60px;
+    width: 120px;
+}
+
+.content{
+    height: 500px;
+    background-color:#240c06;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .square{
+    position:absolute;
+    width: 500px;
+    height: 430px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.content .square .title{
+    width: 500px;
+    height: 30px;
+    background-color: #f2b430;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+}
+
+.formulir{
+    margin-top: -20px;
+}
+
+.fill_name{
+    margin: 30px 0px 0px 35px;
+}
+
+.fill_email{
+    margin: 10px 0px 0px 35px;
+}
+
+.fill_city{
+    margin: 10px 0px 0px 35px;
+}
+
+.fill_address{
+    margin: 10px 0px 0px 35px;
+}
+
+.fill_payment{
+    margin: 0px 0px 0px 180px;
+}
+
+.fill_payment img{
+    width: 50px;
+}
+
+.fill_agree{
+    margin: 0px 0px 0px 35px;
+    font-size: 14px;
+}
+
+#fill_day{
+    margin: 10px 0px 0px 34px;
+}
+
+#fill_cvv{
+    margin: 10px 0px 0px 35px;
+}
+
+.submit_confirm{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.fill_term{
+    margin: 0px 0px 0px 60px;
+    font-size: 10px;
+}
+
+.content .information{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 435px;
+    margin-left: 0px;
+    font-size: 12px;
+}
+
+.content .information .free{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+#name{
+    margin-left: 30px;
+    width: 308px;
+    background-color: #e7e7e7;
+    border: none;
+}
+
+.submit_confirm #confirm:hover{
+    background-color: chocolate;
+}
+
+#email{
+    margin-left: 30px;
+    width: 308px;
+    background-color: #e7e7e7;
+    border: none;
+}
+
+#city{
+    margin-left: 40.5px;
+    width: 308.5px;
+    background-color: #e7e7e7;
+    border: none;
+}
+
+#address{
+    margin-left: 15.5px;
+    width: 308.5px;
+    background-color: #e7e7e7;
+    border: none;
+}
+
+#month{
+    margin-left: 15px;
+    width: 50px;
+    background-color: #e7e7e7;
+    border: none;
+}
+
+#year{
+    margin-left: 15px;
+    width: 50px;
+    background-color: #e7e7e7;
+    border: none;
+}
+
+#cvv{
+    margin-left: 35px;
+    width: 50px;
+    background-color: #e7e7e7;
+    border: none;
+}
+
+#agree{
+    margin-left: 15px;
+}
+
+#confirm{
+    color: white;
+    background-color: #f2b430;
+    width: 150px;
+    height: 30px;
+}
+
+#problemName{
+    font-size: 12px;
+    color: red;
+    margin-left: 70px;
+}
+
+#problemEmail{
+    font-size: 10px;
+    color: red;
+    margin-left: 70px;
+}
+
+#problemCity{
+    font-size: 10px;
+    color: red;
+    margin-left: 70px;
+}
+
+#problemAddress{
+    font-size: 10px;
+    color: red;
+    margin-left: 70px;
+}
+
+#problemPayment{
+    font-size: 10px;
+    color: red;
+    margin-left: 70px;
+}
+
+#problem_Date{
+    font-size: 10px;
+    color: red;
+    margin-left: 70px;
+}
+
+#problem_CVV{
+    font-size: 10px;
+    color: red;
+    margin-left: 70px;
+}
+
+#problemAgree{
+    font-size: 10px;
+    color: red;
+    margin-left: 70px;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #120603;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 800px){
+    .content{
+        height: 780px;
+    }
+    
+    .content .square .title{
+        width: 330px;
+        height: 30px;
+        background-color: #f2b430;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding: 5px 0px 0px 0px;
+    }
+    .content .square{
+        position:absolute;
+        width: 330px;
+        height: 450px;
+        background-color: white;
+        margin-bottom: 100px;
+        margin-left: 4px;
+    }
+
+    .content .information{
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: white;
+        margin-top: 500px;
+        margin-left: 0px;
+    
+    }
+
+    .fill_term{
+        margin: 0px 0px 0px 60px;
+        font-size: 8px;
+    }
+
+    #name{
+        margin-left: 30px;
+        width: 200px;
+        background-color: #e7e7e7;
+        border: none;
+    }
+    
+    #email{
+        margin-left: 30px;
+        width: 200px;
+        background-color: #e7e7e7;
+        border: none;
+    }
+    
+    #city{
+        width: 200px;
+        background-color: #e7e7e7;
+        border: none;
+    }
+
+    #month{
+        margin-left: 15px;
+        width: 40px;
+        background-color: #e7e7e7;
+        border: none;
+    }
+
+    #year{
+        margin-left: 15px;
+        width: 40px;
+        background-color: #e7e7e7;
+        border: none;
+    }
+    
+    #cvv{
+        margin-left: 35px;
+        width: 40px;
+        background-color: #e7e7e7;
+        border: none;
+    }
+
+    #address{
+        width: 200px;
+        background-color: #e7e7e7;
+        border: none;
+    }
+
+    .fill_payment{
+        margin-left: 120px;
+    }
+
+    #problemName{
+        font-size: 8px;
+        color: red;
+        margin-left: 70px;
+    }
+    
+    #problemEmail{
+        font-size: 8px;
+        color: red;
+        margin-left: 70px;
+    }
+    
+    #problemCity{
+        font-size: 8px;
+        color: red;
+        margin-left: 70px;
+    }
+    
+    #problemAddress{
+        font-size: 8px;
+        color: red;
+        margin-left: 70px;
+    }
+    
+    #problemPayment{
+        font-size: 8px;
+        color: red;
+        margin-left: 70px;
+    }
+    
+    #problem_Date{
+        font-size: 8px;
+        color: red;
+        margin-left: 70px;
+    }
+
+    #problem_CVV{
+        font-size: 8px;
+        color: red;
+        margin-left: 70px;
+    }
+    
+    #problemAgree{
+        font-size: 8px;
+        color: red;
+        margin-left: 70px;
+    }
+}

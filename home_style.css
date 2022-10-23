@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #f2b430;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #361209;
+    text-align: center;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+.home:hover{
+    background-color:chocolate;
+}
+
+.menu_beverages:hover{
+    background-color:chocolate;
+}
+
+.contact_us:hover{
+    background-color:chocolate;
+}
+
+.payment:hover{
+    background-color:chocolate;
+}
+
+.menu_desserts:hover{
+    background-color:chocolate;
+}
+
+nav img{
+    width: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 60px;
+    box-sizing: border-box;
+}
+
+nav ul li ul{
+    position: absolute;
+    display: none;
+}
+
+nav ul li ul li{
+    display: block;
+    width: 190px;
+    margin-left: -60px;
+    margin-top: 10px;
+}
+
+.dropdown:hover{
+    background-color:chocolate ;
+    width: 30px;
+}
+
+nav ul li:hover ul{
+    display: block;
+    background-color: chocolate;
+    margin-left: -60px;
+    width: 120px;
+}
+
+.content{
+    height: 500px;
+    background-color:#240c06;
+}
+
+.content .slide_gambar ul li img{
+    width: 100%;
+}
+
+.slide_gambar li{
+    display: inline-block;
+}
+
+.cafe_name{
+    font-size: 16px;
+}
+
+.tombol{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -4px;
+}
+
+.button_Prev{
+    margin-right: 100px;
+}
+
+.button_Prev:hover{
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+.button_Next:hover{
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+.about{
+    color: white;
+    margin-top: 10px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.information{
+    color: white;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #120603;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 800px){
+    .content{
+        height: 780px;
+    }
+
+    .content .tombol{
+        width: 10%;
+        margin: 10px auto;
+    }
+
+    .about{
+        color: white;
+        width: 90%;
+        margin: 70px 0px 0px 20px;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    
+    .information{
+        color: white;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin: 10px 0px 0px 20px;
+        width: 90%;
+        line-height: 30px;
+        font-size: 14px;
+    }
+}
